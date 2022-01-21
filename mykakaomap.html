@@ -25,7 +25,7 @@
 		    map: map // 마커를 표시할 지도 객체
 		});
 
-		 function setCenter()
+		 function setCenter(lat,lng)
 		 {     
 			 marker.setMap(null); //기존 마커 삭제
 			 var pos = new kakao.map.LatLng(lat,lng);   //내가 원하는 위치를 받아옴.
